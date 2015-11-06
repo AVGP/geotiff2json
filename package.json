@@ -1,0 +1,30 @@
+{
+  "name": "geotiff2json",
+  "version": "1.0.0",
+  "description": "Converts GeoTIFF images to a compressed JSON array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avgp/geotiff2json.git"
+  },
+  "keywords": [
+    "geotiff",
+    "pointcloud"
+  ],
+  "author": "Martin Naumann <martin@geekonaut.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avgp/geotiff2json/issues"
+  },
+  "homepage": "https://github.com/avgp/geotiff2json",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "geo-pixel-stream": "^0.2.0"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
